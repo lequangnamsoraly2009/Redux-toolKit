@@ -8,8 +8,8 @@ export const counterSlice = createSlice({
     initialState: {
         value: 0,
     },
-    // Defind a reducer - khi nhận 1 action thì reducer sẽ chịu trách nhiệm thay đổi state nếu action thỏa điều kiện của reducer
-    reducer:{
+    // Defind a reducers - khi nhận 1 action thì reducer sẽ chịu trách nhiệm thay đổi state nếu action thỏa điều kiện của reducer
+    reducers:{
         increment: state => {
             state.value +=1;
         },
